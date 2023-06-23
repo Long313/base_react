@@ -1,0 +1,51 @@
+.header {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.container_logo {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 50%;
+}
+.container_btn {
+  margin-right: 40px;
+  display: flex;
+  align-items: center;
+}
+
+.btn {
+  margin-right: 20px;
+  background-color: #fff;
+  padding: 6px;
+  border: 1px solid #5353ac;
+  color: #5353ac;
+  border-radius: 100px;
+  min-width: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn a {
+  font-size: 14px;
+  font-weight: 300;
+}
+.btn.second {
+  background-color: #5353ac;
+}
+
+.btn.second a {
+  color: white;
+}
+.btn.icon_list {
+  width: 100%;
+  height: 100%;
+}
